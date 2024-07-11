@@ -11,6 +11,7 @@ import (
     "lqwlv73/tryLekko/lekko"
 )
 
+// comment
 func main() {
     env := os.Getenv("ENV")
     client := lekko.NewLekkoClient(context.TODO())
